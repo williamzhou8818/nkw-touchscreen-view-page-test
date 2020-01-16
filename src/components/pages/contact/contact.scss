@@ -1,0 +1,47 @@
+.warp_scorll_contact {
+     width: 100vw;
+     height: 58.9vh;
+     overflow:scroll;
+     overflow-x: hidden;
+
+}
+
+.contact_header {
+    height: 7.6vh;
+    padding: 6% 5%;
+    background-image: url('http://nkwgroup.com/wp-content/uploads/2019/02/nkwdivisionsbanner-19x10.jpg');
+    border: 1px solid  black;
+    color: white;
+    font-weight: 900;
+    line-height: 1.3rem;
+    border-bottom: 1.5px solid  #4F990F;
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+.contact_contanter { 
+    max-width: 1080px;
+    display: flex;
+    padding: 3% 4%;
+
+    .contact-left { 
+        flex: 1;
+        text-align: left;
+        margin: auto;
+        height: 20vh;
+        padding: 0% 5%;
+        border-right: 4px solid #4F990F;
+        font-size: 20px;
+    }
+    .contact-right { 
+        flex:1;
+        
+        height: 20vh;
+        text-align: left;
+        padding: 0% 7%;
+        line-height: 1.2rem;
+
+    }
+
+}

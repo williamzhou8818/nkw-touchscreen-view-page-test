@@ -1,0 +1,263 @@
+
+.about_header {
+    border: 0px solid black;
+    background-image: url('http://nkwgroup.com/wp-content/uploads/2019/02/nkwofficethinkbanner-19x10.jpg');
+    background-size: cover;
+    text-align: center;
+    height: 448px;
+    line-height: 5rem;
+   
+}
+.main_title {
+    padding-top: 145px;
+    font-size: 75px;
+    font-weight:600;
+    color: white;
+    text-align: center;
+    
+    position: relative;
+}
+.sub_title {
+    font-size: 26px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.sub_navs { 
+    background: #191A1B;
+    color: white;
+    height: 49.3px;
+    font-weight:  600;
+    list-style: none;
+    cursor: pointer;
+
+    
+
+    ul {
+        margin: 0px;
+        padding: 3px 0; 
+        text-align: center;
+    }
+    li {
+        line-height: 49.3px;
+        font-size: 18px;
+        margin: 0% 5%;
+        display: inline;
+
+    }
+}
+.main_contents {
+    height: 47.45vh;
+    overflow: scroll;
+    padding-bottom:0;
+    overflow-x: hidden;
+
+    .shortDec {
+        font-size: 20px;
+        text-align: left;
+        background: #fafafa;
+        margin: 0 ;
+        padding: 75px 75px;
+        letter-spacing: 1px;
+        color : #818287;
+    }
+    
+}
+.ourServices {
+   // border: 1px solid black;
+    max-width: 1080px;
+    background-image: url('./AboutUs_Image.png');
+    background-size: cover;
+    height: 353px;
+}
+.service_section {
+        display: flex;
+        background: #F4F4F4;
+        height: 430px;
+        margin: auto;
+        align-items: center;
+        align-content: space-between;
+    
+}
+
+
+.who_we_are {
+    h3 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    display: flex;
+    height:  auto;
+    line-height: 24px;
+    font-size: 18px;
+    background: #fafafa;
+    padding-left: 56.99px;
+    padding-top: 75px;
+    padding-bottom:  94px;
+}
+.left-dec {
+    // background-color: #ff932c;
+    flex: 1;
+    padding: 1rem;
+    h3 { 
+       // padding: 0px 14px;
+        font-size: 30px;
+        color: black;
+        text-align: left;
+    }
+    p { 
+        text-align: left;
+        font-size: 18px;
+        //padding: 0 18px;
+        color: #818287;
+    }
+}
+.right-contents {
+    // background-color: aqua;
+    flex: 1;
+    .imgOne {
+        padding-top:120px;
+        
+    }
+    .imgTwo {
+        padding-top:5px;
+        // height: 230px;
+    }
+}
+
+
+.our_mission_vision_values {
+    display: flex;
+    width: 100vw;
+    // border: 1px solid black;
+    .mission_div { 
+        flex: 1;
+        padding: 13px 35px;
+        text-align: left;
+        line-height: 24px;
+        height: 17vh;
+        font-size: 18px;
+        color: white;
+        background: #009CDE;
+    }
+    .vision_div { 
+        flex: 1;
+        padding: 13px 35px;
+        text-align: left;
+        line-height: 24px;
+        height: 17vh;
+        font-size: 18px;
+        color: white;
+        background: #8CC740;
+    }
+    .values_div { 
+        flex: 1;
+        padding: 13px 35px;
+        text-align: left;
+        line-height: 24px;
+        height: 17vh;
+        font-size: 18px;
+        color: white;
+        background: #F7941B;
+    }
+}
+
+.meet_our_team {
+    display: flex;
+    
+    padding: 15px 45px;
+}
+.card_a {
+    flex:1;
+    margin: 0.4rem 0.4rem;
+}
+.div_txt {
+    padding: 30px 50px;
+    text-align: left;
+    line-height: 1.4rem;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.ceo_message_div {
+  //   width: 100%;
+    //  height: 600px;
+     padding: 45px 35px;
+     text-align: left;
+     background: #F4F4F4;
+     line-height: 24px;
+     //border: 1px solid #131314;
+        .ceo_title { 
+            font-size: 30px;
+            font-weight: 700;
+            padding-left: 30px;
+        }
+        .ceo_main_contents{
+           // width: 100%;
+            display: flex;
+            line-height: 24px;
+            color: #818287;
+            font-size: 18px;
+            padding-top: 10px;
+            padding-left: 30px;
+
+        }
+        .ceo_msg_left {
+            flex:2;
+            p:nth-child(2) {
+                border-left: 4px solid #0236BC;
+                padding-left: 36px ;
+                line-height: 24px;
+                color: #707070;
+                font-size: 18px;
+                font-weight: bold;
+
+
+             }
+        }
+        .ceo_img_right {
+            flex:1;
+            text-align: center;
+        
+          
+        }
+
+        ul, li {
+            display: inline;
+            
+        }
+
+        .divider_bar {
+            margin: 6% 3%;
+        } 
+     
+    }
+
+
+a {
+    color: white;
+}
+a:link {
+    text-decoration: none;
+}
+
+.LinkBotton {
+    background: #F4F4F4;
+    text-align:left;
+    ul {
+
+        list-style: none;
+        display: inline;
+
+    }
+    li {
+        display: inline;
+    }
+}
+.MuiDialog-paperWidthSm {
+    max-width: 1200px !important;
+}
+

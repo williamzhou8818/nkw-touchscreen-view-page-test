@@ -1,0 +1,90 @@
+.expac_detail_header_png_commericial_vel {
+    height: 7.5vh;
+    padding: 6% 5%;
+    background-image: url('./Headers_PCV.png');
+    background-size: cover;
+    color: white;
+    font-weight: 900;
+    line-height: 1.3rem;
+    border-bottom: 1.5px solid  #F7941B;
+    h1 {
+        font-weight: 600;
+        font-size: 70px;
+    }
+}
+
+.pngComericialVel_detail_main {
+    display: flex;
+    align-content: space-between;
+    overflow:scroll;
+    // align-items: center;
+    // border: 1px solid black;
+   //  background: #F7941B;
+    padding: 3% 54px;
+    height: 55.99vh;
+
+    .left_contants {
+        flex: 2;
+        margin-top: 4%;
+        .left_img_logo {
+            height: 16vh;
+            padding: 0% 5%;
+            margin: 0;
+            border-right: 6px solid green;
+            img {
+                margin-top: -14px;
+            }
+        }
+        .contact_card_png_commerical_vel{ 
+            background: #F7F9FB;
+            box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2);
+            border-radius: 4px 4px;
+            margin: 18% 8px;
+            width: 74%;
+            height: 21vh;
+            padding: 5% 5%;
+            margin-left: 6%; 
+            text-align: left;
+            font-size: 1.4rem;
+            color: black;
+            line-height: 1.6em;
+            p { 
+                color: "#707070";
+            }
+        }
+        .contact_card_two { 
+            background: #F7F9FB;
+            box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2);
+            border-radius: 4px 4px;
+            margin: 6% 8px;
+            width: 78%;
+            height: 4vh;
+            padding: 5% 5%;
+            margin-left: 6%; 
+            text-align: left;
+            font-size: 1.4rem;
+            color: black;
+            line-height: 1.6em;
+        }
+    }
+    .right_contants {
+        flex: 3;
+        p {
+            padding: 0 10%;
+         
+            text-align: left;
+            line-height: 2rem;
+        }
+    }
+
+
+    .right_middle_ul_li {
+        padding: 2% 4%;
+        font-size: 1.5vh;
+        line-height: 2.5rem;
+        background: #F7941B;
+        color: white;
+        text-align: left;
+    }
+
+}

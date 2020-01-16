@@ -1,0 +1,81 @@
+.trophy_box { 
+    display: flex;
+    margin-left: 16px;
+    padding: 0.6rem 2.5rem;
+   //border: 1px solid green;
+    
+     
+    .trophy_icon_bg {
+        // border: 2px solid blu;
+        border-radius: 50%;
+        background-color:  rgb(82, 235, 82);
+        i {
+            color: white;
+            font-size: 3.4rem;
+            padding: 3.4rem 3.4rem;
+        }
+    }
+    .trophy_icon_bg:hover {
+        background-color:  white;
+        i {
+            color: rgb(82, 235, 82);
+            font-size: 3.4rem;
+            padding: 3.4rem 3.4rem;
+        }
+    }
+
+
+    .people_icon_bg {
+            border-radius: 50%;
+            background-color:  rgb(6, 106, 163);
+            i {
+                color: white;
+                font-size: 3.4rem;
+                padding: 3.4rem 3.4rem;
+            }
+    }
+    .people_icon_bg:hover {
+        background-color:  white;
+        i {
+            color: rgb(6, 106, 163);
+            font-size: 3.4rem;
+            padding: 3.4rem 3.4rem;
+        }
+    }
+
+.cogs_icon_bg {
+        border-radius: 50%;
+        background-color:  rgb(243, 125, 29);
+        i {
+            color: white;
+            font-size: 3.4rem;
+            padding: 3.4rem 3.4rem;
+        }
+}
+.cogs_icon_bg:hover {
+    background-color:  white;
+    i {
+        color: rgb(243, 125, 29);
+        font-size: 3.4rem;
+        padding: 3.4rem 3.4rem;
+    }
+}
+
+}
+
+.dec_box{
+    border: 0px solid rgb(201, 201, 201);
+    height: 160px;
+    
+    h4 {
+        font-size: 16px;
+    }
+    p {
+        color: lightslategray;
+        font-size: 14px;
+        text-align: center;
+        margin: 3px 3px;
+        padding: 1px 13px;
+
+    }
+}

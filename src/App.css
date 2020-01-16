@@ -1,0 +1,9 @@
+
+.App  {
+  margin: 0;
+  padding: 0;
+  max-width: 1080px;
+  height: 100vh;
+  position: fixed;
+  text-align: center;
+}

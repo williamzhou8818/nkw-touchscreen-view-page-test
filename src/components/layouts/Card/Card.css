@@ -1,0 +1,19 @@
+.contact_card_update { 
+            background: #F7F9FB;
+            box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2);
+            border-radius: 4px 4px;
+            margin: 18% 8px;
+            width: 78%;
+            height: 12vh !important;
+            padding: 5% 5%;
+            margin-left: 6%; 
+            text-align: left;
+            font-size: 20px;
+            color: black;
+            line-height: 1.6em;
+
+            
+            
+}
+
+

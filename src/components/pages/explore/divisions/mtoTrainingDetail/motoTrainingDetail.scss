@@ -1,0 +1,118 @@
+.division_header_mto {
+    height: 7.5vh;
+    padding: 6% 5%;
+    background-image: url('./Headers_MTO.png');
+    background-size: cover;
+    color: white;
+    font-weight: 900;
+    line-height: 1.3rem;
+    border-bottom: 1.5px solid  #F7941B;
+    h1 {
+        font-weight: 600;
+        font-size: 70px;
+    }
+}
+
+.warp_mto_train {
+    overflow:scroll;
+    overflow-x: hidden;
+
+    // align-items: center;
+    // border: 1px solid black;
+   //  background: #F7941B;
+    padding: 4% 54px;
+    height: 54.99vh;
+
+
+}
+        .expac_detail_main_mto_train {
+            display: flex;
+            align-content: space-between;
+            overflow:scroll;
+            // align-items: center;
+            // border: 1px solid black;
+           //  background: #F7941B;
+           overflow-x: hidden;
+
+            padding: 5% 2%;
+            height: 47vh;
+        
+            .left_contants {
+                flex: 2;
+                margin-top: -4%;
+                .left_img_logo {
+                    height: 14vh;
+                    padding: 0% 5%;
+                    margin: 0;
+                    border-right: 6px solid green;
+                    img {
+                        margin-top: -35px;
+                    }
+                }
+                .contact_card_mto_training { 
+                    background: #F7F9FB;
+                    box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2);
+                    border-radius: 4px 4px;
+                    margin: 19% 8px;
+                    width: 74%;
+                    height: 20vh;
+                    padding: 9% 2%;
+                    margin-left: 6%; 
+                    text-align: left;
+                    font-size: 20px;
+                    line-height: 1.6em;
+                    p {
+                        color: #707070;
+                        padding-left: 4%;
+                        font-size: 20px;
+                    }
+
+                }
+            }
+            .right_contants {
+                flex: 3;
+                margin-top: -75px;
+                p {
+                    padding: 0 4%;
+                    font-size: 20px;
+                    color: #707070;
+                    text-align: left;
+                    line-height: 2.5rem;
+                }
+            }
+        
+        
+            .right_middle_ul_li {
+                padding: 2% 4%;
+                font-size: 1.5vh;
+                line-height: 2.5rem;
+                background: #F7941B;
+                color: white;
+                text-align: left;
+            }
+        
+        }
+
+
+.wrap_panel {
+    display: flex;
+    margin: 4% 1%;
+    align-content: center;
+    align-items: center;
+
+    .frist_list {
+        flex:1;    
+        height: 200px;   
+    }
+    .second_list {
+        flex:1;
+        height: 200px;   
+
+
+    }
+    .thrid_list {
+        flex: 1;
+        height: 200px;   
+
+    }
+}

@@ -1,0 +1,74 @@
+.expac_detail_header_mto {
+    height: 7.5vh;
+    padding: 6% 5%;
+    background-image: url('./Headers_MTOTraining.png');
+    background-size: cover;
+    color: white;
+    font-weight: 900;
+    line-height: 1.3rem;
+    border-bottom: 1.5px solid  #F7941B;
+    h1 {
+        font-weight: 600;
+        font-size: 70px;
+    }
+}
+.warper_ato {
+
+    height: 59.19vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 0% 0%; 
+    margin-bottom: -4px;
+    .main_context_warper_ato {
+        padding: 0% 60px; 
+
+    }
+
+}
+.pargrah_main_mto {
+    text-align: left;
+    p {
+
+        margin: auto;
+        padding: 4% 3%;
+        color: gray;
+        font-size: 20px;
+        line-height: 2.3rem;
+    }
+}
+.section_title_mto { 
+    width: 100%;
+    text-align: left;
+    p { 
+        margin: auto;
+        padding: 1% 3%;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    hr {
+        margin: 1% 3%;
+        border: 6px solid orange;
+        border-radius: 5px;
+    }
+}
+.logo_section { 
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    // border: 1px solid black;
+    div {
+        border: 1px solid black;
+        margin: 10% 12%;
+    }
+}
+.image_footer_mto img {
+    overflow: hidden;
+    margin: 0 ;
+    padding: 0;
+    width: 100vw;
+    height: 569.6;
+    -webkit-box-shadow:  3px 5px 6px 6px rgba(0,0,0,0.85);
+    -moz-box-shadow:  3px 5px 6px 6px rgba(0,0,0,0.85);
+     box-shadow:  3px 5px 6px 6px rgba(0,0,0,0.85);
+}

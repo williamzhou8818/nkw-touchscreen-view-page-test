@@ -1,0 +1,88 @@
+.expac_detail_header_hidden_valley_tran_log {
+    height: 7.5vh;
+    padding: 6% 6%;
+    background-image: url('./Headers_HiddenValley.png');
+    background-size: cover;
+    color: white;
+    font-weight: 900;
+    line-height: 1.3rem;
+    border-bottom: 1.5px solid  #F7941B;
+    h1 {
+        font-weight: 600;
+        font-size: 70px;
+    }
+}
+
+.hiddenValley_detail_main{
+    display: flex;
+    align-content: space-between;
+    overflow:scroll;
+    overflow-x: hidden; 
+    margin-bottom: 0px;
+    // align-items: center;
+    // border: 1px solid black;
+   //  background: #F7941B;
+    padding: 3% 54px;
+    height: 55.69vh;
+
+    .left_contants {
+        flex: 2;
+        margin-top: 4%;
+        .left_img_logo {
+            height: 13.9vh;
+            padding: 0% 5%;
+            margin: 0;
+            border-right: 6px solid green;
+            img {
+                margin-top: -14px;
+            }
+        }
+        .contact_card { 
+            background: #F7F9FB;
+            box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2);
+            border-radius: 4px 4px;
+            margin: 6% 8px;
+            width: 78%;
+            height: 12vh !important;
+            padding: 5% 5%;
+            margin-left: 6%; 
+            text-align: left;
+            font-size: 1.4rem;
+            color: black;
+            line-height: 1.6em;
+        }
+
+    }
+    .right_contants {
+        flex: 3;
+        p {
+            padding: 0 4%;
+            font-size: 20px;
+            text-align: left;
+            line-height: 2.5rem;
+            color: #707070;
+        }
+
+        ul {
+            line-height: 2.3rem;
+        }
+    }
+
+
+    .right_middle_ul_li {
+        padding: 2% 4%;
+        font-size: 1.5vh;
+        line-height: 2.5rem;
+        background: #F7941B;
+        color: white;
+        text-align: left;
+    }
+    
+    ul { 
+        text-align: left;
+        line-height: 1.8rem;
+        font-size: 1.333rem;
+        color: rgb(117, 117, 117);
+    }
+
+}

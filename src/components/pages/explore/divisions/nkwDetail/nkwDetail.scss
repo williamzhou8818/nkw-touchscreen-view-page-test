@@ -1,0 +1,110 @@
+.nkw_detail_header_divistion {
+    height: 7.5vh;
+    padding: 6% 15%;
+    background-image: url('./Headers_Fresh.png');
+    background-size: cover;
+    color: white;
+    font-weight: 900;
+    line-height: 1.3rem;
+    border-bottom: 1.5px solid  #F7941B;
+    h3 {
+        font-weight: 600;
+        font-size: 70px;
+    }
+}
+
+.nkw_detail_middle_contants { 
+    display: flex;
+    align-content: space-between;
+    // align-items: center;
+    // border: 1px solid black;
+   //  background: #F7941B;
+    padding: 6% 3%;
+    height: 15vh;
+
+    .left_logo { 
+        flex:1;
+        //background: palegreen;
+        height: 14vh;
+        border-right: 4px  solid green;
+        img {
+            margin-top: -14%;  
+        }
+   
+    }
+    .right_contact_card_contaner { 
+        flex:2;
+    
+        .contact_card { 
+            background: #F7F9FB;
+            box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2);
+            border-radius: 4px 4px;
+            margin: 8px 8px;
+            width: 70%;
+            height: 9vh;
+            padding: 5% 5%;
+            margin-left: 6%; 
+            text-align: left;
+            font-size: 30px;
+            color: black;
+        }
+        p{ 
+            font-size:  20px;
+            color: #707070;
+        }
+    }
+}
+
+.main_contants {
+    height: 59vh;
+    overflow:scroll;
+    font-size: 20px;
+    color: #707070;
+    
+}
+
+.pargarh_section {
+     width: 100%;
+     text-align: left;
+    .p_1 , .p_2, p {
+        padding: 0.3rem 4%;
+        line-height: 2rem;
+    }
+}
+
+.pargarh_section_2 { 
+     width: 100%;
+     text-align: left;
+     line-height: 2rem;
+
+     img {
+         padding: 2% 7%;
+         float: right;
+     }
+    .p_s_left_text , p {
+        padding: 0.3rem 4%;
+        line-height: 2rem;
+
+        
+     }
+  
+
+}
+
+.one_big_img {
+    width: 76%;
+    margin: auto;
+    border: 0px solid black;
+    height: 320px;
+    padding: 2% 4%;
+
+    background-image: url('./NKWFresh_Entry_Page_Images.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    // -webkit-box-shadow:  3px 5px 6px 6px rgba(0,0,0,0.85);
+    // -moz-box-shadow:  3px 5px 6px 6px rgba(0,0,0,0.85);
+    //  box-shadow:  3px 5px 6px 6px rgba(0,0,0,0.85);
+   
+}
+

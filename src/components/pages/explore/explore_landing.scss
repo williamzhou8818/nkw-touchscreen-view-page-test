@@ -1,0 +1,51 @@
+.explore_header {
+    height: 251px;
+    padding: 0% 8%;
+    word-spacing: 0.2rem;
+    letter-spacing: 1.5px;
+    text-align: left;
+    background-image: url('http://nkwgroup.com/wp-content/uploads/2019/02/nkwdivisionsbanner-19x10.jpg');
+    border: 1px solid  rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    word-wrap: break-word;
+    border-bottom: 1.5px solid  #F7941B;
+    
+}
+.explore_contants { 
+    height: 69.9vh;
+    border: 0px solid rgba(0, 0, 0, 0);
+    margin: 0 !important;
+    padding: 0!important; 
+    overflow: hidden;
+    .makeStyles-root-1 { 
+        margin: 0 !important;
+        padding: 0!important;  
+    }
+    .MuiGridListTile-root {
+        margin: 0px  0px !important;
+        padding:  0px 0px !important;
+    }
+    .MuiGridListTileBar-root  {
+        background: rgba(0, 0, 0, 0.812) !important;
+    }
+}
+.explore_contants::-webkit-scrollbar { 
+    display: none;  // Safari and Chrome
+}
+
+
+.active {
+    
+        background: #8ABD2C;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        background: rgb(124, 170, 39);
+        -webkit-box-shadow: -0px 8px 6px 0px #50990F ;
+        -moz-box-shadow:-0px 8px 6px 0px    #50990F;
+        box-shadow: -0px 8px 6px 0px      #50990F;
+        z-index: 1;
+      
+    
+}

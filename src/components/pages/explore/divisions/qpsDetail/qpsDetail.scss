@@ -1,0 +1,85 @@
+.expac_detail_header_qps {
+    height: 7.5vh;
+    padding: 6% 5%;
+    background-image: url('./Headers_QPS.png');
+    background-size: cover;
+    color: white;
+    font-weight: 900;
+    line-height: 1.3rem;
+    border-bottom: 1.5px solid  #F7941B;
+    h1 {
+        font-size: 70px;
+    }
+}
+
+.warp_qps {
+    height: 58.99vh;
+    overflow:scroll;
+    .qps_detail_main {
+        display: flex;
+        align-content: space-between;
+        font-size: 20px;
+        // align-items: center;
+        // border: 1px solid black;
+       //  background: #F7941B;
+        padding: 2% 54px;
+        height: 59.8vh;
+        .left_contants {
+            flex: 2;
+            margin-top: 4%;
+            .left_img_logo {
+                height: 16vh;
+                padding: 0% 5%;
+                margin: 0;
+                border-right: 6px solid green;
+                img {
+                    margin-top: -14px;
+                }
+            }
+            .contact_card { 
+                background: #F7F9FB;
+                box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2);
+                border-radius: 4px 4px;
+                margin: 6% 8px;
+                width: 74%;
+                height: 28vh;
+                padding: 5% 5%;
+                margin-left: 6%; 
+                text-align: left;
+                font-size: 1.4rem;
+                color: black;
+                line-height: 1.6em;
+            }
+            .contact_card_two_qps { 
+                background: #F7F9FB;
+                box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2);
+                border-radius: 4px 4px;
+                width: 68%;
+                height: 2.2vh;
+                padding: 5% 5%;
+                margin-left: 6%; 
+                text-align: left;
+                font-size: 20px;
+                color: black;
+                
+            }
+        }
+        .right_contants {
+            flex: 3;
+            p {
+                padding: 0 4%;
+                font-size: 20px;
+                text-align: left;
+                line-height: 2.5rem;
+                color: #707070;
+            }
+        }
+    
+    
+        .img_gallery {
+            color: orange;
+        }
+        
+    }
+}
+

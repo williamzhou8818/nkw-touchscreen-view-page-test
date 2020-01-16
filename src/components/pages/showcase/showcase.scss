@@ -1,0 +1,22 @@
+.videos_showcase {
+    max-width: 1080px;
+    height: 608.99px;
+    border: 0px solid black;
+    video::-webkit-media-controls {
+        display: none;
+      }
+}
+.img_sliders_adv {
+    height: 417.9px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.bigBannerImage {
+    height: 380.99px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
