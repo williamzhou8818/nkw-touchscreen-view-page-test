@@ -14,7 +14,6 @@ import './ourteam.scss';
 
 
 import Container from '@material-ui/core/Container';
-import { flexbox } from '../../../../../client/node_modules/@material-ui/system';
 
 
 const useStyles = makeStyles(theme => ({

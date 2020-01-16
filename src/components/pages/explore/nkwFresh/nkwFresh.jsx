@@ -1,9 +1,7 @@
 import React, {Fragment, useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import nkwFreshFooterImage from  './CategoryFooterImages_Fresh.png';
 import axios from 'axios';
 import './nkwFresh.scss';
-import { sanitize } from 'express-validator';
 
 
 
